@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@import "node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+.error {
+  color: #fff !important;
+  background-color: RGBA(var(--bs-danger-rgb), var(--bs-bg-opacity, 1)) !important
+}
+
+div {
+  width: 60%;
+  margin: auto;
+}
+
+hr {
+  color: red;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+header {
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

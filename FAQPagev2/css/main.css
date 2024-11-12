@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+
+#search {
+  width: 35%;
+  float: right;
+}
+
+.center-placeholder::placeholder {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: normal;
+  color: #999;
+}
+
+.accordion-container{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  border-style: solid solid dashed solid;
+  border-radius: 5px;
+}
+
+.accordion-header-container{
+  width: 40%;
+  border-style: none solid none none;
+}
+
+.accordion-content-container{
+  width: 60%;
+}
+
+.accordion-button::after {
+  float: left;
+  margin-right: 10px;
+}

@@ -1,0 +1,8 @@
+{
+  "/": {
+    "target": "http://panel.guvenliimza.com.tr",
+    "secure": false,
+    "changeOrigin": true
+  }
+}
+

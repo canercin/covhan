@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "baslik": "Gelen/Giden Faturalarımı Nasıl Görebilirim?",
+      "icerik": "<p>Sol menüde “Giden Kutusu”, “Gelen Kutusu” başlıklarını göreceksiniz</p>\n\n<p>“Giden Kutusu” bölümünden müşterilerinize kestiğiniz faturaları görebilir, “Gelen Kutusu” \nbölümünden ise size kesilen faturaları görebilirsiniz</p>"
+    },
+    {
+      "baslik": "Elektronik Fatura Nasıl Kesilir?",
+      "icerik": "<strong> <p>Yeni fatura oluşturmak için sol menüden “Belge İşlemleri” bölümünde bulunan “Belge Oluştur” \nyazısına tıklanır. Ekran aşağıdaki görselde bulunan ekran gelecektir</p> </strong> <p>Burada fatura keseceğiniz müşterinizin bilgilerini girmeniz gerekmektedir. Burada “Vergi Dairesi”, “İl”, \n“İlçe” birbirlerine bağlı olarak yapılmıştır. Örneğin “İl” bölümüne “İstanbul” yazdığınızda ilçe \nbölümünde ilçe’yi yazarken otomatik tamamlamada o ile bağlı ilçeleri göstereceğini farkedeceksiniz.</p> <p>Unvan/Ad-Soyadı, Vergi/TC Kimlik Numarası, Vergi Dairesi, Adres, İlçe, İl ve Ülke bölümleri zorunlu \nalanlardır. Bu alanlar mutlaka dolu olmalıdır. Ek olarak e-posta bölümüne müşterinizin mail adresini \ngirerseniz keseceğiniz fatura otomatik olarak alıcıya mail ortamında da gidecektir.</p> <p>Ek olarak bilgileri girdikten sonra sistem otomatik bilgileri kaydetmektedir. Böylelikle aynı müşteriye \nbir sonraki fatura kesimizde vkn veya unvanı yazdıktan sonra sistem size otomatik tamamlama \nözelliğini getirecektir.</p> <p>Girmiş olduğunuz VKN ve TCKN sistem sorgulamakta ve buna göre otomatik e-fatura veya e-arşiv \nfatura oluşturmaktadır</p> <p>Bilgileri girdikten sonra ekranın herhangi bir yerine Mouse ile tıklamanız bir sonraki adıma geçmeniz \niçin yeterlidir.\n</p> <p>İkinci adımda faturanın senaryosunu, tipini, tarihini, para birimini gireceğiniz/değiştireceğiniz \nbölüm bulunmaktadır. Burada fatura tipi(satış, iade, istisna, tevkifat vs) , fatura tarihi gibi \nözellikleri değiştirebilirsiniz.</p> <p>Ek olarak burada fatura numaranızı manuel girmek isterseniz “Manuel No” yazısına tıklayıp girmek \nistediğiniz fatura numarasını manuel olarak girebilirsiniz.</p>"
+    },
+    {
+      "baslik": "İade Faturası Nasıl Oluşturulur?",
+      "icerik": "<p>İade faturası oluşturmak için yukarıdaki resimde görüleceği gibi fatura tipini iade faturası yapılmalıdır. \nEk olarak notlar bölümünde yeşil artı düğmesine tıklanılarak iadeye konu olan faturalar ile ilgili fatura \nnumarası ve fatura tarihi belirtilebilir. (Örnek:01/01/1970 Tarihli XXX2023000000001 numaralı \nfaturaya istinaden kesilen iade faturasıdır.)\n</p>"
+    },
+    {
+      "baslik": "İstisna Faturası Nasıl Oluşturulur?",
+      "icerik": "<p>İstisna faturası oluşturmak için yukarıdaki resimde görüleceği gibi fatura tipi istisna faturası \nyapılmalıdır. Fatura tipi “İstisna Faturası” seçilmesinin akabinde alt bölümde “KDV İstisna Muafiyet \nSebebi” ni seçebileceğiniz bir bölüm açılacaktır. Burada arama bölüme KDV İstisna kodunuzu ya da \nKDV muafiyet sebebini yazıp arama yaparak İstisna sebebini kolayca bulabilirsiniz. </p> <strong>Not: İstisna faturalarında buradan mutlaka KDV istisna muafiyet sebebi seçilmelidir.</strong>"
+    },
+    {
+      "baslik": "Tevkifatlı Fatura Nasıl Oluşturulur ?",
+      "icerik": "<p>Tevkifatlı Fatura oluşturmak için yukarıdaki resimde görüleceği gibi fatura tipi \"Tevkifatlı Fatura\" yapılmaldır.</p>\n\n<p>Fatura tipi \"Tevkifatlı Fatura\" yapıldıktan sonra 3. Bölüm olan \"Gövde\" bölümünde \"Yeni Satır\" denilerek eklenecek olan kalemler eklenmelidir.</p>\n\n<p>Kalem bilgileri girilirken yukarıdaki resimde görüleceği üzere KDV Tevkifat bölümünde size KDV Tevkifat kodunuz seçebileceğiniz bir bölüm gelecektir. Bu bölümde tevkifat kodu veya tevkifat sebebini arayarak kolayca tevkifat kodunu seçebilirsiniz.</p>\n"
+    },
+    {
+      "baslik": "Sipariş ve İrsaliye Bilgileri Nasıl Girilir?",
+      "icerik": "<p>Sipariş veya İrsaliye bilgilerini girmek için öncelikle yukarıdaki resimde görüşeceği üzere üst bölümden çark işaretine tıklanılarak \"Sipariş & İrsaliye Bilgileri\" bölümü aktif hale getirilmelidir. Aktif hale getirildikten sonra \"Sipariş & İrsaliye Bilgileri\" girebileceğiniz bir alan çıkacaktır.</p>\n\n<p>İrsaliye bilgisi girmek için \"İrsaliye Bilgileri\" bölümünde yeşil renkli artı düğmesine tıklanır ve alt tarafta beliren bölüme irsaliye tarihi ve numarası girilir.</p>\n\n<p>Sipariş bilgilerini girmek için ise \"Sipariş Bilgileri\" bölümünde Sipariş Tarihi ve Sipariş Numarası bölümüne giriş yapılması yeterlidir.</p>\n"
+    },
+    {
+      "baslik": "Fatura Kalemi Nasıl Eklenir?",
+      "icerik": "<p>Burada işlemlerinizi tamamladıktan sonra yine boşluğa tıklayıp bir sonraki adıma (kalem ekleme \nadımı) geçebilirsiniz.</p> <p>3. adımda fatura kalemlerini girebileceğiniz ve fatura için notlar ekleyebileceğiniz bölüm \nbulunmaktadır.</p> <p>Burada “Yeni Satır” yazısına tıklayarak Fatura kalemlerinizi girebilirsiniz.</p> <p>Kalemleri KDV dahil olarak girmek isterseniz sağ bölümde bulunan sütunlar yazısına tıklayarak kdv \ndurum tikini işaretlemeniz yeterlidir. Sonrasında kalemlere KDV Durum sütunu gelecektır buradan kdv \ndurumu istediğiniz gibi dahil/hariç yapabilirsiniz.</p>"
+    },
+    {
+      "baslik": "Toplu KDV Tevkifat Ekleme Nasıl Yapılır?",
+      "icerik": "<p>Fatura Kalemleri bölümünde yukarıdaki resimde işaretli olan bölümlerde görüleceği üzere kalemler \ntoplu seçilir ve “Toplu İşlemler – Tevkifat Kodu Ekle” yazısına tıklanır. Karşınıza gelen ekrandan KDV \ntevkifat kodu seçilir ve uygula butonuna basılır. Bu seçili olan tüm kalemlere tevkifat kodu \nekleyebilirsiniz.\n</p>"
+    },
+    {
+      "baslik": "Toplu Vergi Ekleme Nasıl Yapılır?",
+      "icerik": "<p>Fatura Kalemleri bölümünde yukarıdaki resimde işaretli olan bölümlerde görüleceği üzere kalemler \ntoplu seçilir ve “Toplu İşlemler – Vergi Ekle” yazısına tıklanır. Fatura Kalemleri yazısının hemen altına \nekleyeceğiniz vergiyi seçebileceğiniz bir açılır menü gelecektir. Bu bölümden eklenecek olan vergiyi \nseçip yan tarafta bulunan oranı bölümüne oran girilerek “Seçili Kalemlere Ekle” yazısına tıklanır. \nBöylelikle vergi kalemlere eklenmiş olur.</p>"
+    },
+    {
+      "baslik": "Fatura Notu Nasıl Eklenir?",
+      "icerik": "<p>Yukarıdaki resimde işaretli alanda görüleceği üzere Notlar bölümünde yeşil “+” butonuna tıkladıktan \nsonra notlar bölümünde not girebileceğiniz bir yazı alanı eklenecektir. Buraya eklemek istediğiniz not \ngirilir ve not eklenmiş olur.</p>"
+    },
+    {
+      "baslik": "Oluşturulan fatura Önizleme, XML İndirme, Taslaklara Kaydetme Nasıl Yapılır?",
+      "icerik": "<p>Yukarıdaki resimde seçili alanda da görüleceği üzere oluşturulan ve gönderilmemiş faturanın \n- görüntüsünü görebilmek için büyüteç simgesine tıklanılmalıdır.\n- XML indirebilmek için büyütecin hemen solundaki indirme simgesine tıklanılmalıdır.\n- Taslaklara kaydetmek için ise büyütecin hemen sağındaki kaydet simgesine tıklanılmalıdır.</p>"
+    },
+    {
+      "baslik": "Faturayı onaylama nasıl yapılır?",
+      "icerik": "<p>Oluşturulan faturanın onaylanıp gönderilmesi için ise “Gönder” düğmesine basılıp gelen uyarı \nekranında “Eminim kaydet” yazısına tıklanması yeterlidir.</p>"
+    },
+    {
+      "baslik": "Gönderilmiş bir faturanın PDF’i nasıl indirilir?",
+      "icerik": "<p>Gönderdiğiniz bir faturanın pdf’ini indirmek için sol menüden “Belge İşlemleri – Gönderilmiş Belgeler”\nbölümüne gelinir. Burada pdf’ini indirmek istediğiniz faturanın sağ bölümünde bulunan üç nokta’ya \ntıklanır ve “PDF olarak indir” yazısına tıklanır böylelikle faturanın pdf’i indirilmiş olur.</p> <p>Toplu Pdf indirmek için ise ERP yazısının hemen solunda bulunan kutucuk işaretlenir ve sağ üst \nbölümden “Toplu İşlemler” yazısına tıklanarak tek sayfa pdf veya toplu pdf yazısına tıklanır.</p>"
+    }
+  ]
+}

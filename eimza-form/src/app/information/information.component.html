@@ -1,0 +1,130 @@
+<header class="m-3"> Rahat Fatura E-İmza Başvuru Formu
+  <hr>
+</header>
+<form #infoform="ngForm" (ngSubmit)="eimza(infoform)" style="margin-top: 10px">
+  <div>
+    <label for="firstName" class="form-label">Adınız</label>
+    <input type="text" id="firstName" name="firstName" ngModel class="form-control" #firstName="ngModel" required>
+    <div *ngIf="firstName.errors?.['required']" class="text-bg-danger">
+      Adınızı lütfen giriniz.
+    </div>
+    <hr>
+  </div>
+
+  <div>
+    <label for="lastName" class="form-label">Soyadınız</label>
+    <input type="text" id="lastName" name="lastName" ngModel class="form-control" #lastName="ngModel" required>
+    <div *ngIf="lastName.errors?.['required']" class="text-bg-danger">
+      Soyadınızı lütfen giriniz.
+    </div>
+    <hr>
+  </div>
+
+  <div>
+    <label for="tcno" class="form-label">TC Kimlik Numaranız</label>
+    <input type="number" id="tcno" name="tcno" ngModel class="form-control"
+           inputmode="numeric" #tcno="ngModel" required>
+    <div *ngIf="tcno.errors?.['required']" class="text-bg-danger">
+      TC Kimlik numaranızı lütfen giriniz.
+    </div>
+    <hr>
+  </div>
+
+  <div>
+    <label for="email" class="form-label">Mail Adresiniz</label>
+    <input type="email" id="email" name="email" ngModel class="form-control" #email="ngModel" required>
+    <div *ngIf="email.errors?.['required']" class="text-bg-danger">
+      Mail adresinizi lütfen giriniz.
+    </div>
+    <hr>
+  </div>
+
+  <div>
+    <label for="telefon" class="form-label">Telefon Numaranız</label>
+    <input type="number" id="telefon" name="telefon" ngModel class="form-control" placeholder="5xxxxxxxxx"
+           #telefon="ngModel" required>
+    <div *ngIf="telefon.errors?.['required']" class="text-bg-danger">
+      Telefon numaranızı lütfen giriniz.
+    </div>
+    <hr>
+  </div>
+
+  <div><label for="serino" class="form-label">TC Seri Numaranız</label>
+    <input type="text" id="serino" name="serino" ngModel class="form-control" #serino="ngModel" required>
+    <div *ngIf="serino.errors?.['required']" class="text-bg-danger">
+      TC Kimlik Seri Numaranızı lütfen giriniz.
+    </div>
+    <hr>
+  </div>
+
+  <div>
+    <label for="setYear" class="form-label">Lisans Süresi</label>
+    <select id="setYear" name="setYear" ngModel class="form-select" #setYear="ngModel" required>
+      <option value="" disabled selected>Seçiniz...</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+    <div *ngIf="setYear.errors?.['required']" class="text-bg-danger">
+      Lisans süresini lütfen giriniz.
+    </div>
+    <hr>
+  </div>
+
+  <div>
+    <label for="birth" class="form-label">Doğum Günü</label>
+    <input type="date" id="birth" name="birth" ngModel class="form-control" #birth="ngModel" required>
+    <div *ngIf="birth.errors?.['required']" class="text-bg-danger">
+      Doğum gününüzü lütfen giriniz.
+    </div>
+    <hr>
+  </div>
+
+  <div>
+    <label for="birthloc" class="form-label">Doğum Yeriniz</label>
+    <input type="text" id="birthloc" name="birthloc" ngModel class="form-control" #birthloc="ngModel" required>
+    <div *ngIf="birthloc.errors?.['required']" class="text-bg-danger">
+      Doğum yerinizi lütfen giriniz.
+    </div>
+    <hr>
+  </div>
+
+  <div>
+    <label for="teslimatadres" class="form-label">Teslimat adresi</label>
+    <input type="text" id="teslimatadres" name="teslimatadres" ngModel class="form-control" #teslimatadres="ngModel"
+           required>
+    <div *ngIf="teslimatadres.errors?.['required']" class="text-bg-danger">
+      Teslimat adresinizi lütfen giriniz.
+    </div>
+    <hr>
+  </div>
+
+  <div>
+    <label for="teslimatil" class="form-label">Teslimat il</label>
+    <input type="text" id="teslimatil" name="teslimatil" ngModel class="form-control" #teslimatil="ngModel" required>
+    <div *ngIf="teslimatil.errors?.['required']" class="text-bg-danger">
+      Teslimat ilinizi lütfen giriniz.
+    </div>
+    <hr>
+  </div>
+
+  <div>
+    <label for="teslimatilce" class="form-label">Teslimat ilçe</label>
+    <input type="text" id="teslimatilce" name="teslimatilce" ngModel class="form-control" #teslimatilce="ngModel"
+           required>
+    <div *ngIf="teslimatilce.errors?.['required']" class="text-bg-danger">
+      Teslimat ilçenizi lütfen giriniz.
+    </div>
+    <hr>
+  </div>
+
+  <div>
+    <label for="message" class="form-label">Eklemek istediğiniz başka bir şey ?</label>
+    <textarea maxlength="255" id="message" name="message" class="form-control" ngModel></textarea>
+  </div>
+
+  <div class="mt-3 mb-3">
+    <input type="submit" value="E-güven başvuru formunu yollamak için tıklayınız!" class="btn btn-primary"
+           [disabled]="!infoform.valid">
+  </div>
+</form>
